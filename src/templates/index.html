@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belleve Restaurant Apps</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <a href="#main-content" class="skip-link">Skip to Content</a>
+    <img src="./images/logo.png" alt="Belleve Restaurant Logo">
+    <h1>Belleve Restaurant Apps</h1>
+
+    <button id="toggleBtn" class="toggle-btn" tabindex="0">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <nav id="drawer">
+      <ul>
+        <li><a href="/" tabindex="0">Home</a></li>
+        <li><a href="#" tabindex="0">Favorite</a></li>
+        <li><a href="https://github.com/RizalFarid" tabindex="0">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="0" >
+    <div class="hero">
+      <img src="./images/heros/hero-image_4.jpg" alt="Hero Image">
+    </div>
+    <div class="content">
+      <h1>Explore Restaurant</h1>
+      <div id="restaurant-list" class="restaurant-grid" ></div>
+      <div id="back-to-top">
+        <button class="btn-back-to-top"><i class="fas fa-chevron-up"></i></button>
+      </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>Copyright &copy; 2024 Belleve Restaurant Apps</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
